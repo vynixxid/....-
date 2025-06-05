@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+}
+
+.dark-theme {
+  background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
+  color: white;
+}
+
+header {
+  background-color: #111;
+  padding: 1em;
+  text-align: center;
+  border-bottom: 2px solid #0055ff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #00aaff;
+}
+
+nav a {
+  margin: 0 1em;
+  color: #00aaff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.token-list {
+  list-style: none;
+  padding: 0;
+}
+
+.token-list li {
+  background: #111;
+  margin: 0.5em 0;
+  padding: 1em;
+  border: 1px solid #333;
+  border-left: 4px solid #00aaff;
+}
+
+.token-form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.token-form label,
+.token-form input,
+.token-form select,
+.token-form button {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px;
+}
+
+.token-form input,
+.token-form select {
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #333;
+}
+
+.token-form button {
+  background-color: #00aaff;
+  color: white;
+  cursor: pointer;
+}
+
+.token-form button:hover {
+  background-color: #0077cc;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #111;
+  color: #888;
+  margin-top: 2em;
+}
